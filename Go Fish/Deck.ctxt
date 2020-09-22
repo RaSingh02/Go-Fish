@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Deck
+comment0.text=\r\n\ Creates\ a\ deck\ that\ can\ be\ dealt,\ shuffled,\ return\ how\ many\ card\ left\ to\ be\ dealt,\ and\ what\ such\ cards\ are.\r\n\r\n\ @author\ Randeep\ Singh\ \r\n\ @version\ 3/12/2020\r\n
+comment1.params=suit
+comment1.target=void\ addSuit(Suit)
+comment1.text=\r\n\ Adds\ the\ given\ suit\ and\ makes\ 13\ cards\ to\ the\ ArrayList\ of\ cards.\r\n\ \r\n\ @param\ suit\ The\ given\ suit\ to\ make\ 13\ cards\ of.\ e.g\ ACE\ of\ SPADES\r\n
+comment2.params=
+comment2.target=Deck()
+comment2.text=\r\n\ Makes\ and\ add\ 13\ cards\ for\ each\ suit\ into\ the\ ArrayList\ of\ cards.\r\n
+comment3.params=
+comment3.target=void\ shuffle()
+comment3.text=\r\n\ Shuffles\ the\ cards\ within\ the\ ArrayList\ of\ cards..\r\n
+comment4.params=
+comment4.target=Card\ deal()
+comment4.text=\r\n\ Deals\ the\ cards\ and\ removes\ it\ from\ the\ deck.\r\n
+comment5.params=
+comment5.target=int\ numCardsNotDealt()
+comment5.text=\r\n\ Returns\ the\ number\ of\ cards\ left\ in\ the\ deck.\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ Returns\ which\ cards\ are\ left\ to\ be\ dealt\ in\ a\ (rank\ +\ "\ of\ "\ suit)\ manner.\r\n
+numComments=7

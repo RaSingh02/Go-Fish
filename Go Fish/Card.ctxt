@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Card
+comment0.text=\r\n\ Creates\ a\ card\ that\ has\ a\ rank\ and\ suit\ that\ can\ be\ called\ from\ other\ programs.\r\n\r\n\ @author\ Randeep\ Singh\r\n\ @version\ 3/9/2020\r\n
+comment1.params=rank\ suit
+comment1.target=Card(int,\ Suit)
+comment1.text=\r\n\ Initializes\ the\ variables\ to\ be\ equal\ to\ the\ ones\ inputted\ by\ the\ user.\r\n\ \r\n\ @param\ rank\ The\ rank\ of\ the\ card\r\n\ @param\ suit\ The\ suit\ of\ the\ card\r\n
+comment2.params=
+comment2.target=int\ getRank()
+comment2.text=\r\n\ Returns\ the\ rank.\r\n
+comment3.params=
+comment3.target=Suit\ getSuit()
+comment3.text=\r\n\ Returns\ the\ suit.\r\n
+comment4.params=
+comment4.target=java.lang.String\ getRankName()
+comment4.text=\r\n\ Returns\ the\ rank\ name;\ e.g\ 1\ ->\ ACE.\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ Returns\ the\ rank\ and\ the\ suit\ in\ (rank\ +\ "\ of\ "\ +\ suit)\ manner.\ e.g\ (Ace\ of\ SPADES)\r\n
+numComments=6
